@@ -8,4 +8,6 @@
 /var/
 /vendor/
 .idea
+credentials.json
+token.json
 ###< symfony/framework-bundle ###

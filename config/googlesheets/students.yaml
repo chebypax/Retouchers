@@ -1,0 +1,13 @@
+parameters:
+# https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
+  app.google_sheet_config.students:
+    entity_class: 'App\Entity\Student'
+    sheet_id: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms'
+    range: 'Class Data!A2:F'
+    column_prop_rel:
+      0: 'name'
+      1: 'gender'
+      2: 'classLevel'
+      3: 'homeState'
+      4: 'major'
+      5: 'extraActivity'
